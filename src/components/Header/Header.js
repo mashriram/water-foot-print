@@ -6,7 +6,7 @@ function Header() {
             <nav>
                 <li className={styles.lineItem}>
                     {/* <img src={logo} className={styles.logo} /> */}
-                    The Jal Path
+                    The Jala Padam
                 </li>
             </nav>
         </header>
