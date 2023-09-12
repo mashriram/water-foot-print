@@ -2,6 +2,15 @@ p {
     margin: 0px;
 }
 
+@keyframes card {
+    from {
+        box-shadow: 4px 4px 8px black;
+    }
+    to {
+        box-shadow: 8px 8px 12px black;
+    }
+}
+
 .foodImage {
     border-radius: 1rem;
     text-align: center;
@@ -53,6 +62,8 @@ p {
 }
 .foodItem:hover {
     box-shadow: 8px 8px 12px black;
+    animation-name: card;
+    animation-duration: 0.2s;
 }
 .details {
     display: grid;

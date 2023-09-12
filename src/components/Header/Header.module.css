@@ -7,9 +7,11 @@
 }
 .header {
     text-align: center;
+    box-shadow: 2px 2px 16px black;
+    color: white;
     font-size: 2rem;
     font-weight: 600;
-    background-color: aqua;
+    background-color: rgb(0, 36, 114);
     padding: 1rem;
     position: fixed;
     width: 100%;
