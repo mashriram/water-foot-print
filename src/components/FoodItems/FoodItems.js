@@ -3,11 +3,17 @@ import styles from "./FoodItems.module.css";
 
 function FoodItems(props) {
     return (
-        <div>
-            {props.foodItems.map((foodItem, idx) => {
-                return <FoodItem key={idx} item={foodItem} />;
-            })}
-        </div>
+        <>
+            {props.foodItems &&
+                props.foodItems.length > 0 &&
+                props.foodItems.map((foodItem, idx) => {
+                    return (
+                        <div className={styles.foodItem}>
+                            <FoodItem key={idx} item={foodItem} />
+                        </div>
+                    );
+                })}
+        </>
     );
 }
 

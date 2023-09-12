@@ -1,12 +1,12 @@
 import styles from "./Header.module.css";
-import logo from "./../../images/header-logo.png"; // with import
 
 function Header() {
     return (
-        <header>
+        <header className={styles.header}>
             <nav>
                 <li className={styles.lineItem}>
-                    <img src={logo} className={styles.logo} />
+                    {/* <img src={logo} className={styles.logo} /> */}
+                    The Jal Path
                 </li>
             </nav>
         </header>
